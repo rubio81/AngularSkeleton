@@ -1,0 +1,16 @@
+.main-div{
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: coral;*/
+    /* padding-top: 30vh;
+    padding-bottom: 30vh; */
+  }
+
+  .footer-div{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;    
+  }
