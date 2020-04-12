@@ -38,6 +38,6 @@ export class HeaderComponent implements OnInit {
 
   public login():void{
     console.log('login'); 
-    this.router.navigate(['/login']);
+    this.router.navigate(['/logi']);
   }
 }

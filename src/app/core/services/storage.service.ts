@@ -4,10 +4,6 @@ import { Router } from '@angular/router';
 import { Session } from '../models/session.model';
 import { User } from '../models/user.model';
 
-//{
-//  providedIn: 'root'
-//}
-
 @Injectable()
 export class StorageService {
 

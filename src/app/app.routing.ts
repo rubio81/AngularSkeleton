@@ -6,7 +6,6 @@ import { ResetPasswordComponent } from './login/reset-password/reset-password.co
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const appRoutes: Routes = [
-  // { path: 'home', component: HomeComponent, canActivate: [ AuthorizatedGuard ] },
   { path: 'dashboard', component: DashboardComponent, canActivate: [ AuthorizatedGuard ] },
   { path: 'login', component: LoginComponent },
   { path: 'reset-password', component: ResetPasswordComponent, canActivate: [ AuthorizatedGuard ] },
